@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pascal's Triangle</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Pascal's Triangle</h1>
+      <p>
+        The displayTriangle function first gets the value of a text input field
+        with the id "rows" and converts it to an integer. If the value is not a
+        positive integer, an error message is displayed and the function
+        returns. Otherwise, the function generates the Pascal's triangle using
+        the generatePascalsTriangle function and an empty HTML element with the
+        id "triangle". It then creates a new div element for each row of the
+        triangle, and for each element in the row, it creates a new div element,
+        sets its text content to the value of the element, and appends it to the
+        row div. 
+      </p>
+      <label for="rows">Enter the number of rows:</label>
+      <input type="number" id="rows" min="1" />
+      <button onclick="displayTriangle()">Generate Triangle</button>
+    </div>
+    <div id="triangle"></div>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

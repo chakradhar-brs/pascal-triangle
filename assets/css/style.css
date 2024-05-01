@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: url(https://media.istockphoto.com/id/612372260/photo/empty-white-studio-background.webp?b=1&s=170667a&w=0&k=20&c=xuNw1YIChqwQwygjMg1wJouqf3Rp32eMqQXQJ5L9_co=);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-top: 0;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+  
+  input[type="number"] {
+    width: 5rem;
+    margin-right: 1rem;
+  }
+  
+  button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0069d9;
+  }
+  
+  #triangle {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+  }
+  
+  .cell {
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .number {
+    padding: 5px 10px;
+    border: 2px solid #85426c;
+    margin: 2px;
+  }
