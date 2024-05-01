@@ -1,1 +1,1 @@
-https://chakradhar-brs.github.io/pascal-triangle/
+ https://chakradhar-brs.github.io/pascal-triangle/
